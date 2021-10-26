@@ -1,1 +1,13 @@
 /* TODO: Add media queries */
+
+.thumbnails {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thumbnails > div {
+    width: 90%;
+    margin-top: 5%;
+}
