@@ -1,0 +1,65 @@
+html * {
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    color: rgb(101, 158, 232);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 100px;
+}
+
+.check-mark {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.included {
+    background-color: rgba(120, 195, 232, 0.2);
+    -webkit-box-shadow: 5px 5px 1px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 1px -3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.price {
+    border: 5px solid rgb(101, 158, 232);
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-wrap {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(101, 158, 232);
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.rickroll-link {
+    margin-top: 10px;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: rgb(101, 158, 232);
+    border-radius: 5px;
+}
