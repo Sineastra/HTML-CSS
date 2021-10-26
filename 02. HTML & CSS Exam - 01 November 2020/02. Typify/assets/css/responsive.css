@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper > .inner {
+        width: 90%;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 90%;
+    }
+
+    .grid-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    .banner h2 {
+        align-self: center;
+        width: 90%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .feature {
+        display: inline-block;
+        width: 100%;
+    }
+
+    ul.actions li {
+        width: 100%;
+    }
+
+    ul.actions li > input {
+        width: 100%;
+    }
+}
