@@ -1,0 +1,236 @@
+p {
+    margin: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 70px;
+
+}
+
+.centered {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+}
+
+.logo-image {
+    width: 150px;
+}
+
+.nav-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.banner {
+    height: 400px;
+    background-color: #353c5b;
+    position: relative;
+    text-align: center;
+}
+
+.calc-img {
+    position: absolute;
+    top: 25%;
+    left: -70px;
+}
+
+.button-description {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.courses {
+    margin-top: -150px;
+    display: flex;
+    width: 90%;
+    max-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+
+.course {
+    z-index: 1;
+    -webkit-box-shadow: 0 9px 13px 3px rgba(0, 0, 0, 0.39);
+    box-shadow: 0 9px 13px 3px rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.course-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    text-align: center;
+    width: auto;
+    min-height: 180px;
+    height: 180px;
+    max-height: 180px;
+}
+
+.course-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    width: 100%;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price-section {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-section-small {
+    width: 49%;
+}
+
+.price1 {
+    background: linear-gradient(to right, green, #6ff33a);
+    height: 100px !important;
+}
+
+.price2 {
+    background: linear-gradient(to right, #6565ef, #90bafc);
+    height: 100px !important;
+}
+
+.price3 {
+    background: linear-gradient(to right, #6422c7, #8b65c4);
+    height: 100px !important;
+}
+
+.divider {
+    width: 2px;
+    margin: 6px 0;
+    background: lightgrey;
+    height: 80%;
+}
+
+.price-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.join-btn {
+    padding: 15px;
+    background-color: mediumpurple;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.online-or-present {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.online-or-present-inner {
+    text-align: start;
+    width: 80%;
+}
+
+.benefits-container {
+    margin-top: 20px;
+}
+
+.benefit {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.first-benefit {
+    border-top-left-radius: 5px;
+}
+
+.last-benefit {
+    border-bottom-left-radius: 5px;
+}
+
+.flex-item-ticks {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.flex-item-text {
+    width: 75%;
+}
+
+.dark-benefit {
+    background-color: #a8a7a7;
+}
+
+.financing {
+    display: flex;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: start;
+    align-self: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.financing-item {
+    width: 60%;
+}
+
+.bank-img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 30%;
+    margin-right: -100px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #5b5b5b;
+    color: lightgrey;
+}
