@@ -1,0 +1,123 @@
+@media screen and (max-width: 468px) {
+    .div-header {
+        display: none;
+    }
+
+    .logo-center {
+        width: 30%;
+    }
+
+    .options {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .options > article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .gallery > article {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gallery article a {
+        margin-left: 0;
+    }
+
+    body > main > section.blog > div > h4 > span {
+        display: none;
+    }
+
+    body > main > section.blog > div > a {
+        display: none;
+    }
+
+    body > main > section.blog > article > img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    body > main > section.blog > div {
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    body > main > section.magazine > div > a {
+        display: none;
+    }
+
+    body > main > section.magazine > div {
+        width: 100%;
+    }
+
+    .magazine-title {
+        padding: 0;
+    }
+
+    body > main > section.magazine > article {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .magazine-title h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .magazine-info img {
+        width: 100%;
+        height: auto;
+    }
+
+    body > main > section.magazine > article > div > h3 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    body > main > section.magazine > article > div > p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .magazine-info button {
+        padding: 20px 30px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    /*body > main > section.magazine > div > h4 > span {*/
+    /*    display: none;*/
+    /*}*/
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blog-title h4 {
+        padding-top: 20px;
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+}
