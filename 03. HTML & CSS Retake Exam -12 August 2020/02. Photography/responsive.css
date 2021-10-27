@@ -1,13 +1,15 @@
 /* TODO: Add media queries */
 
-.thumbnails {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-}
+@media screen and (max-width: 600px) {
+    .thumbnails {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-.thumbnails > div {
-    width: 90%;
-    margin-top: 5%;
+    .thumbnails > div {
+        width: 90%;
+        margin-top: 5%;
+    }
 }

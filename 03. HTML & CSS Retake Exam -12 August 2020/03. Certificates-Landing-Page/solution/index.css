@@ -1,0 +1,238 @@
+html * {
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    height: 740px;
+    background: url("../images/hero-certificates.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 740px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 0;
+}
+
+.content {
+    width: 100%;
+    height: 740px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.main-nav {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 2px 4px 16px 1px rgba(0, 0, 0, 0.65);
+    box-shadow: 2px 4px 16px 1px rgba(0, 0, 0, 0.65);
+    z-index: 2;
+}
+
+.header-logo {
+    width: 10%;
+}
+
+.main-nav-li {
+    list-style-type: none;
+    margin-left: 15px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+.main-nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #444444;
+    white-space: nowrap;
+    height: 100px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.aa {
+    background-color: dodgerblue;
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+}
+
+.main-nav-link:hover {
+    border-top: 4px solid dodgerblue;
+}
+
+.banner-description {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+.description {
+    width: 50%;
+    background-color: #060656;
+    color: white;
+    text-align: start;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dark-cert {
+    margin-left: -10px;
+}
+
+.misc-banner-desc {
+    flex-basis: 100%;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.diploma-desc {
+    background-color: rgba(211, 211, 211, 0.3);
+
+    padding: 20px;
+    text-align: start;
+    border-radius: 1px;
+}
+
+.diploma-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    text-align: start;
+}
+
+.diploma-misc-desc {
+    text-align: start;
+}
+
+.diploma-h-center {
+    text-align: center;
+}
+
+.explore {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 100px;
+    height: 300px;
+    background: url("../images/sign-up-prompt-background.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.bg-cover-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.down-content {
+    z-index: 1;
+}
+
+.apply-buttons {
+    min-width: 20%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.divider {
+    width: 2px;
+    margin: 0 50px 0 50px;
+    background: lightgrey;
+    height: 30px;
+    display: inline-block;
+}
+
+.apply-btn {
+    background: white;
+    color: dodgerblue;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: bolder;
+}
+
+.cur-btn {
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer-logo {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.footer-ltd {
+    color: lightgrey;
+}
+
+.footer-flex-item {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-footer-span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
