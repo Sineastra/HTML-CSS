@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;600;700&display=swap');
+
+header {
+    background: url("../Requirements-and-Resources/images/map.jpg") no-repeat;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.header-heading-section {
+    font-size: 64px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading {
+    margin-bottom: 0;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.start-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background: #4848f8;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.articles {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.lone-article {
+    width: 50%;
+    position: relative;
+}
+
+.twin-articles {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 1000px;
+}
+
+.articles-inner {
+    display: flex;
+}
+
+.article1 {
+    height: 1000px;
+    width: 100%;
+    background: url("../Requirements-and-Resources/images/packing.jpg") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.article1-heading, .article2-heading, .article3-heading {
+    font-size: 28px;
+    color: white;
+}
+
+.article2-heading, .article3-heading {
+    margin: 0;
+}
+
+.article2-heading {
+    text-align: center;
+}
+
+.article3-heading {
+    margin-bottom: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+.article1-heading {
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.article2 {
+    height: 50%;
+    background: url("../Requirements-and-Resources/images/planning.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.article3 {
+    position: relative;
+    height: 50%;
+    background: url("../Requirements-and-Resources/images/budget.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    width: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    /*height: 100%;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.log-in-section {
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    /*width: 10%;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-logo {
+    width: 90%;
+    text-align: start;
+}
+
+.log-in-span {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.header-logo {
+    width: 50px;
+}
